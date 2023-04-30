@@ -1,0 +1,157 @@
+@charset "UTF-8";
+.menu{
+    position: fixed;
+	width: 100px;
+    margin: auto;
+    padding: 30px;
+    overflow: hidden;
+    list-style: none;
+}
+
+.menu li#recom{
+	  width: 115px;
+}
+
+.menu li{ 
+	color:#000;
+	background-color:#e2d8cf;
+	text-align:center;
+    float: left;
+    width:115px;
+    height: 30px;
+    margin: 5px;
+    border: 3px solid; 
+}
+body{
+    font: Verdana,Arial,Geneva,sans-serif;
+	font-size: 17px;
+    background-color:#260e04;
+    color:#e2d8cf;
+    }
+    
+div#interface{
+    width: 1000px;
+    background-color: #000;
+    margin: auto;
+    padding: 30px;
+}
+div#interface h1{
+	text-align: center;
+}
+
+
+hr {
+width: 90%;
+height: 1px;
+background-color: #e2d8cf;
+border-width: 0px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.description{
+    text-align: left;
+    display: flex;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom: 20px;
+}
+
+.description img {
+    height: 200px;
+    width: 200px;
+    padding-right:20px;
+}
+
+.talbums h2{
+	text-align: center;
+}
+.talbums img{
+	width:12%;
+	height:12%;
+}
+
+.disc{
+    background-color: #121212;
+    margin: auto;
+	width: 800px;
+    padding: 40px;
+	text-align: center;
+}
+.disc h3{
+	text-align: center;
+	font-size: 28px;
+}
+
+.sd { 
+	margin-top: -70px;
+}
+
+
+.more h2{
+	text-align: center;
+	
+}
+
+
+.more{
+    width: 500px;
+	overflow: hidden;
+	list-style-position: inside;
+	list-style-type: square;
+	text-align: left;
+}
+
+.more li{
+    float: center;
+    margin: 5px;
+}
+
+/*.disc li{
+   float: left;
+    width: 150px;
+    height: 210px;
+    margin: 40px;
+}
+
+.disc li#ahnb{                          
+   background: url(../eyehategod/midia/ahnb.jpg) no-repeat ;
+   background-position: top;
+   background-size: 100% 80% ;
+  
+}
+
+.disc li#dpsk{
+    background: url(../eyehategod/midia/dpsk.jpg) no-repeat ;
+    background-position: top;
+    background-size: 100% 80%;
+    
+}
+
+.disc li#ehg{
+    background: url(../eyehategod/midia/ehg.jpg) no-repeat ;
+    background-position: top;
+    background-size: 100% 80%;
+    
+}
+
+.disc li#sd{
+    background: url(../eyehategod/midia/sd.jpg) no-repeat ;
+   background-position: top;
+    background-size: 100% 80%;
+   
+}
+
+.disc li#sd2{
+    background: url(../eyehategod/midia/sd.jpg) no-repeat ;
+     background-position: top;
+    background-size: 100% 80%;
+    
+}
+
+.disc li#dpsk2{
+    background: url(../eyehategod/midia/dpsk.jpg) no-repeat ;
+   background-position: top;
+    background-size: 100% 80%;
+   
+}

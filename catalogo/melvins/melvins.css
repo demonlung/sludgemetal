@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body{
+    font: Verdana,Arial,Geneva,sans-serif;
+	font-size: 17px;
+    background-color:#260e04;
+    color:#e2d8cf;
+    }
+    
+div#interface{
+    width: 1000px;
+    background-color: #000;
+    margin: auto;
+    padding: 30px;
+}
+div#interface {
+	text-align: center;
+}
+
+.t1 h1{
+	text-align: center;
+}
+
+.t1 img{
+height:50%;
+	width:50%;
+}
+
+hr {
+width: 90%;
+height: 1px;
+background-color: #e2d8cf;
+border-width: 0px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.description{
+    text-align: left;
+    display: flex;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom: 20px;
+}
+
+.description img {
+    height: 200px;
+    width: 200px;
+    padding-right:20px;
+}
+
+.talbums h2{
+	text-align: center;
+}
+.talbums img{
+	width:12%;
+	height:12%;
+}
+
+.disc{
+    background-color: #121212;
+    margin: auto;
+	width: 800px;
+    padding: 40px;
+	text-align: center;
+}
+.disc h3{
+	text-align: center;
+	font-size: 28px;
+}
+
+.sd { 
+margin-top: -70px;
+}
+.more h2{
+	text-align: center;
+	
+}
+
+
+.more{
+    width: 500px;
+	overflow: hidden;
+	list-style-position: inside;
+	list-style-type: square;
+	text-align: left;
+}
+
+.more li{
+    float: center;
+    margin: 5px;
+}
+
+

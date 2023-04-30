@@ -1,0 +1,77 @@
+@charset "UTF-8";
+body{
+    font: Verdana,Arial,Geneva,sans-serif;
+	font-size: 17px;
+    background-color:#260e04;
+    color:#e2d8cf;
+	
+    }
+    
+div#interface{
+    width: 1000px;
+    background-color: #000;
+    margin: auto;
+    padding: 30px;
+}
+div#interface h1{
+	text-align: center;
+}
+div#interface img{
+	width: 30%;
+	height: 30%;
+}
+hr {
+width: 90%;
+height: 1px;
+background-color: #e2d8cf;
+border-width: 0px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.description{
+    text-align: left;
+    display: flex;
+	margin-left:100px;
+	margin-right:100px;
+	margin-bottom: 20px;
+}
+
+.description img {
+    height: 200px;
+    width: 200px;
+    padding-right:20px;
+}
+.disc{
+    background-color: #121212;
+    margin: auto;
+	width: 800px;
+    padding: 40px;
+}
+.disc h2{
+	text-align: center;
+}
+
+.nola {
+margin-top: -70px;
+}
+	.II {
+margin-top: -70px;
+}
+.more h2{
+	text-align: center;
+	
+}
+
+
+.more{
+    width: 200px;
+	overflow: hidden;
+	list-style-position: inside;
+	list-style-type: square;
+}
+
+.more li{
+    float: center;
+    margin: 5px;
+}

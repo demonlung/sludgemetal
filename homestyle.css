@@ -1,0 +1,237 @@
+@charset "UTF-8";
+
+body{
+    font: Verdana,Arial,Geneva,sans-serif;
+	font-size: 17px;
+    background-color:#260e04;
+    color:#e2d8cf;
+}
+
+.menu{
+    position: fixed;
+	width: 100px;
+    margin: auto;
+    padding: 30px;
+    overflow: hidden;
+    list-style: none;
+}
+
+.menu li#recom{
+	  width: 115px;
+}
+
+.menu li{ 
+	color:#000;
+	background-color:#e2d8cf;
+	text-align:center;
+    float: left;
+    width:115px;
+    height: 30px;
+    margin: 5px;
+    border: 3px solid; 
+}
+
+div#interface{
+    width: 900px;
+    background-color: #000;
+    margin: auto;
+    padding: 30px;
+}
+
+
+div#content{
+	padding: 100px;
+	margin-top: -80px;
+	margin-bottom: -50px;
+}
+
+div#content h1{
+	text-align: center;
+}
+
+div#content img{
+	width:30%;
+	height:30%;
+}
+ hr {
+width: 90%;
+height: 2px;
+background-color: #260e04;
+border-width: 0px;
+}
+
+ul#catalogo h2{
+	text-align: center;
+	
+}
+ul#catalogo p{
+	text-align:center;
+}
+
+ul#catalogo img{
+width: 15%;
+height: 15%;
+}
+
+ul#catalogo{
+    width: 700px;
+    margin: auto;
+    padding: 30px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#catalogo li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid; 
+}
+ul#catalogo li#melvins{                          
+    background: url('catalogo/melvins/midia/melvins.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+ul#catalogo li#neurosis{
+    background: url('catalogo/neurosis/midia/neurosis1.jpg');
+    background-position: 100% 100%;
+    background-size: 105% 105%;
+}
+
+ul#catalogo li#acidbath{
+    background: url('catalogo/acidbath/midia/acidbath2.jpg');
+    background-position: 50% 50%;
+	background-size: 110%;
+}
+
+ul#catalogo li#eyehategod{
+    background: url('catalogo/eyehategod/midia/eyehategod2.jpg');
+    background-position: 50% 65%;
+    background-size:100%;
+}
+
+ul#catalogo li#dystopia{
+    background: url('catalogo/dystopia/midia/dystopia1.jpg');
+    background-position: 50% 15%;
+    background-size: 145%
+}
+
+ul#catalogo li#crowbar{
+    background: url('catalogo/crowbar/midia/crowbar2.jpg');
+    background-position: 50% 0%;
+    background-size: 105%;
+}
+
+ul#catalogo li#dugdemona{
+    background: url('catalogo/dugdemona/midia/dugdemona.jpg');
+    background-position: 50% 15%;
+	background-size: 135%;
+}
+
+
+
+ul#catalogo li#down{
+    background: url('catalogo/down/midia/download.jpg');
+    background-position: 50% 50%;
+background-size: 100% 100%;
+} 
+ul#catalogo li#cough{
+    background: url('catalogo/cough/midia/photo.jpg');
+    background-position: 50% 50%;
+background-size: 125% 100%;
+} 
+
+ul#catalogo li#mastodon{
+    background: url('catalogo/mastodon/midia/mastodon1.jpg');
+    background-position: 50% 50%;
+    background-size: 115% 95%;
+}
+
+
+.legenda {
+ position:auto;
+	text-align: center;
+	opacity: 0;
+	font-size: 30px;
+	 color: white;
+}
+.legenda:hover{
+	 opacity: 1.0; 
+	 background-color: rgba(0, 0, 0, .8);
+	 padding: 66px; transition: opacity 0.2s ease-in-out;
+}
+
+
+.legenda1 {
+ position:auto;
+	text-align: center;
+	opacity: 0;
+	font-size: 30px;color: white;
+}
+.legenda1:hover{
+	 opacity: 1.0; 
+	 background-color: rgba(0, 0, 0, .8);transition: opacity 0.2s ease-in-out;
+	  padding: 83px 32px;
+}
+
+
+.legenda2 {
+ position:auto;
+	text-align: center;
+	opacity: 0;
+	font-size: 30px;color: white;
+}
+.legenda2:hover{
+	 opacity: 1.0; 
+	 background-color: rgba(0, 0, 0, .8);transition: opacity 0.2s ease-in-out;
+	  padding: 83px 32px;
+}
+
+
+.legenda3 {
+ position:auto;
+	text-align: center;
+	opacity: 0;
+	font-size: 30px;color: white;
+   
+}
+.legenda3:hover{
+	 opacity: 1.0; 
+	 background-color: rgba(0, 0, 0, .8);transition: opacity 0.2s ease-in-out;
+	  padding: 83px 32px;
+}
+
+
+.legenda4 {
+ position:auto;
+	text-align: center;
+	opacity: 0;
+	font-size: 25px;color: white;
+	
+}
+.legenda4:hover{
+	 opacity: 1.0; 
+	 background-color: rgba(0, 0, 0, .8);transition: opacity 0.2s ease-in-out;
+	  padding: 86px 20px;	
+}
+
+
+.legenda5 {
+ position:auto;
+	text-align: center;
+	opacity: 0;
+	font-size: 30px;
+   transition: opacity 0.5s ease-in-out;color: white;
+}
+.legenda5:hover{
+	 opacity: 1.0; 
+	 background-color: rgba(0, 0, 0, .8);transition: opacity 0.2s ease-in-out;
+	  padding: 83px 32px;
+}
+
+
+div#footer {
+		text-align:center;
+}

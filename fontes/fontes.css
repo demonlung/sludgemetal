@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+div#interface{
+    width: 1000px;
+    background-color: #000;
+    margin: auto;
+    padding: 30px;
+}
+
+body{
+    font: Verdana,Arial,Geneva,sans-serif;
+	font-size: 17px;
+    background-color:#260e04;
+    color:#e2d8cf;
