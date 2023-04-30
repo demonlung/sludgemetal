@@ -223,7 +223,7 @@ ul#catalogo li#mastodon{
 	text-align: center;
 	opacity: 0;
 	font-size: 30px;
-   transition: opacity 0.5s ease-in-out;color: white;
+  color: white;
 }
 .legenda5:hover{
 	 opacity: 1.0; 
